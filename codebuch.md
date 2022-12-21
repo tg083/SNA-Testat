@@ -1,14 +1,9 @@
----
-title: "Codebuch"
-author: "Franziska Weber Timo Gotsch"
-date: "2022-12-21"
-output: html_document
----
 
-# Datensatz Reichsbürger-Razzia #
-# Codebuch-Stand vom 2022-12-21, erstellt von Franziska Weber und Timo Gotsch	#																								
 
-# Edgelist und Nodelist sind seperat auf diesem GitHub-Repository aufgeführt.#																									
+# Datensatz Reichsbürger-Razzia 
+# Codebuch-Stand vom 2022-12-21, erstellt von Franziska Weber und Timo Gotsch								
+
+# Edgelist und Nodelist sind seperat auf diesem GitHub-Repository aufgeführt.																									
 
 Das Netzwerk ist ein *ungerichtetes two-mode Akteursnetzwerk*. 
 
@@ -36,7 +31,7 @@ definiert die Beziehung der Akteure zueinander, codiert nach einzelnen Ziffern:
 5 = *Ratsmitglied*
 6 = *Kabinettsmitglied*
 7 = *Unterstützung*
-**complicated**  
+
  
  
 # NODE-Attribute  
@@ -57,4 +52,3 @@ sector	Beschreibung der Zugehörigkeit der Personen zu einem bestimmten gesellsc
 **NA**  
 NA	definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus..																								 
 
-##
